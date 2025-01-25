@@ -17,7 +17,7 @@ pub struct Config {
     pub preamble_length: PreambleLength,
     /// Sets the bitrate of the transmission.
     pub bitrate: BitRate,
-    /// Defaults to `true`.
+    /// Defaults to `false`.
     pub frame_filtering: bool,
     /// Sets the ranging bit in the transmitted frame.
     /// This has no effect on the capabilities of the DW3000.
